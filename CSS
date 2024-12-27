@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scrollbar-color: black, #0c3450
+}
+
+body {
+    color: white;
+    background-color: black; ;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #2C272E;
+    max-width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header */
+
+.nome--gabriel {
+    text-align: left;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 1px;
+    text-shadow: 7px 4px 3px black;
+}
+
+.botao {
+    font-size: 28px;
+    background-color: #0c3450;
+    color: white;
+    padding: 10px 17px;
+    border: solid 1px white;
+    border-radius: 12px;
+    margin: 6px 14px;
+    cursor: pointer;
+}
+
+/* BOTÃO */
+button:hover {
+    font-size: 25px;
+}
+
+
+/* seção 1 */
+
+h1 {
+    padding: 4px;
+    margin: 4px;
+}
+
+ul {
+    font-size: 20px;
+    text-align: center;
+    display: contents;
+    list-style: none;
+}
+
+h2 {
+    font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 86px;
+  margin: 1px;
+  text-shadow: 7px 4px 3px black;
+}
+
+.nome {
+    font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 86px;
+  margin: 1px;
+  text-shadow: 7px 4px 3px black;
+}
+
+.section1 {
+    background-color: #100622ed;
+}
+    
+.container {
+    overflow: auto;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fotoprincipal {
+    transform: translate(-59px, -1px);
+}
+
+.card { 
+    align-items: center;
+    background-color: #0c3450;
+    box-shadow: 0 0 20px 5px #0e80c0a1;
+    border-radius: 20px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px 20px;
+}
+
+.mic {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/* seção 2 */
+
+.section2 {
+    color: #6E6368;
+    font-size: 17px;
+    background-color: #2c272e;
+    padding: 40px;
+    margin: -21px 0;
+    box-shadow: 0 2px 13px -5px #ffffff;
+    transform: translate(0, 0px);
+}
+
+.lemes {
+    color: #18f0b3;
+    font-size: 30px;
+    font-weight: 400px;
+    text-shadow: 7px 4px 3px black;
+}
+
+.card2 { 
+    align-items: center;
+    background-color: #0c3450;
+    box-shadow: 0 0 20px 5px #0e80c0a1;
+    border-radius: 20px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin-top: 55px;
+    margin-bottom: 70px;
+    margin-left: 25px;
+    padding: 20px 20px;
+}
+
+/* Seção 3 */
+
+.section3 {
+    background-color: black;
+    background-image: url(https://wallpapercat.com/w/full/0/0/5/1171654-3840x2160-desktop-4k-piano-background.jpg);
+}
+
+/* seção 4 */
+
+.section4 {
+    background-color: #100622ed;
+}
+
+.section--fundo {
+    background-image: url(https://img.freepik.com/free-photo/volumetric-musical-background-with-treble-clef-notes-generative-ai_169016-29576.jpg);
+    background-position: 50%;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.container--contato {
+    justify-content: center;
+}
+
+.card3 { 
+    align-items: center;
+    background-color: #0c3450;
+    box-shadow: 0 0 20px 5px #0e80c0a1;
+    border-radius: 20px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin-top: 55px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    padding: 25px 20px;
+}
+
+.botaocontato {
+        font-size: 28px;
+        background-color: #14797a;
+        color: white;
+        padding: 10px 17px;
+        border: solid 1px white;
+        border-radius: 12px;
+        margin: 6px 14px;
+        cursor: pointer;
+    }
+
+.fotocontato {
+    transform: translate(-59px, -1px);
+}
+
+/* Footer */
+
+footer {
+    background-color: #2c272e;
+    padding: 15px 10px
+}
+
+/* POPUP */
+
+input {
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 2px solid #14797a;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+    color: white;
+}
+
+
+.popup {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    background-color: #0d151feb;
+    backdrop-filter: blur(5px);
+}
+
+.popup__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.popup-aberto .popup {
+    display: flex;
+}
+
+.popup__botao--fechar {
+    transform: translate(87%, -68%);
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4px;
+    aspect-ratio: 1 / 1;
+    height: 45px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1020px) { 
+}
+
+@media (max-width: 950px) {
+   .container {
+    max-width: 900px;
+   }
+}
+
+@media (max-width: 771px) {
+    img {
+        height: 499px;
+        max-width: 100%;
+    }
+
+    /* HEADER */
+
+    .botao {
+        font-size: 20px;
+    }
+
+    button:hover {
+        font-size: 15px;
+    }
+
+    /* PRIMEIRA PÁGINA */
+    .nome {
+        font-size: 70px;
+    }
+
+    .container {
+        max-width: 770px;
+    }
+
+    .card {
+        align-items: center;
+        background-color: #0c3450;
+        box-shadow: 0 0 20px 5px #0e80c0a1;
+        border-radius: 20px;
+        border: solid 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-evenly;
+        max-width: 50%;
+        margin-top: 25px;
+        margin-left: 21px;
+        margin-bottom: 25px;
+        padding: 12px 18px;
+    }
+
+    /* SEGUNDA PÁGINA */
+    .card2 {
+        align-items: center;
+        background-color: #0c3450;
+        box-shadow: 0 0 20px 5px #0e80c0a1;
+        border-radius: 20px;
+        border: solid 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-evenly;
+        max-width: 50%;
+        margin-top: 25px;
+        margin-left: 21px;
+        margin-bottom: 25px;
+        padding: 12px 18px;
+    }
+
+    .container--dois {
+        margin: 14px 23px;
+    }
+
+    /* TERCEIRA PÁGINA */
+    .card3 {
+        margin-left: 21px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* HEADER */
+    .nome--gabriel {
+        font-size: 25px;
+    }
+
+    .botao {
+        font-size: 15px;
+    }
+
+    button:hover {
+        font-size: 10px;
+    }
+
+    /* PRIMEIRA PÁGINA */
+
+    h2 {
+        font-size: 60px;
+    }
+    .nome {
+        font-size: 46px;
+    }
+
+    .card {
+        max-width: 73%;
+        margin-bottom: 36px;
+        margin-top: 13px;
+        margin-left: 63px;
+        margin-right: -72px;
+    }
+
+    img {
+        opacity: 0;
+    }
+
+    /* SEGUNDA PÁGINA */
+
+    .card2 {
+        max-width: 51%;
+        margin-top: 27px;
+        margin-left: 9.5px;
+        margin-right: 4.5px;
+        margin-bottom: 19px;
+        padding: 6px 9px;
+    }
+
+    /* TERCEIRA PÁGINA */
+
+    .card3 {
+        margin-left: 150px;
+    }
+}
