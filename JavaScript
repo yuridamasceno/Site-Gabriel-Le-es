@@ -1,5 +1,54 @@
-document.querySelectorAll("button").forEach(function (botao) {
-  botao.addEventListener("click", function () {
-    document.body.classList.toggle("popup--aberto");
-  });
+// BOTÃO DE POPUP ABERTO 
+
+document.querySelectorAll("button")[0].addEventListener("click", function () {
+  document.body.classList.toggle("popup--aberto");
+});
+
+// BOTÃO DE POPUP FECHADO
+document.querySelectorAll("button")[1].addEventListener("click", function () {
+  document.body.classList.toggle("popup--aberto");
+});
+
+document.querySelectorAll("button")[2].addEventListener("click", function () {
+  document.body.classList.toggle("popup--aberto");
+});
+
+// SCROLL Sobre Mim
+
+function scrollTo(element){
+  document.querySelector(element).scrollIntoView ({behavior: "smooth"});
+}
+
+document.querySelector("#sobre").addEventListener('click', function(event){
+  event.preventDefault();
+
+  scrollTo("#sobremim")
+
+  console.log("Sobre mim");
+});
+
+// SCROLL Contato
+
+function scrollTo(element){
+  document.querySelector(element).scrollIntoView ({behavior: "smooth"});
+}
+
+document.querySelector("#contact").addEventListener('click', function(event){
+  event.preventDefault();
+
+  scrollTo("#contato")
+  console.log("Contato");
+});
+
+// SCROLL UP
+
+function scrollTo(element){
+  document.querySelector(element).scrollIntoView ({behavior: "smooth"});
+}
+
+document.querySelector("#up").addEventListener('click', function(event){
+  event.preventDefault();
+
+  scrollTo("body")
+  console.log("up");
 });
