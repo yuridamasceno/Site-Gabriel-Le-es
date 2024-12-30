@@ -15,6 +15,7 @@ body {
 
 img {
     max-width: 100%;
+    margin-bottom: -6px;
 }
 
 header {
@@ -95,7 +96,9 @@ h2 {
 }
 
 .section1 {
+    background-size: cover;
     background-color: #100622ed;
+    background-image: url(https://t3.ftcdn.net/jpg/02/23/60/54/360_F_223605406_nGKtPp42ZRx4ZxvrcVeT3Ek6V5Uw4ETh.jpg);
 }
     
 .container {
@@ -106,6 +109,12 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.container--um {
+    background-image: url(https://t3.ftcdn.net/jpg/02/23/60/54/360_F_223605406_nGKtPp42ZRx4ZxvrcVeT3Ek6V5Uw4ETh.jpg);
+    background-size: cover;
+    background-position: 100%;
 }
 
 .fotoprincipal {
@@ -173,20 +182,20 @@ h2 {
 
 .section3 {
     background-color: black;
-    background-image: url(https://wallpapercat.com/w/full/0/0/5/1171654-3840x2160-desktop-4k-piano-background.jpg);
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/80/07/30/1000_F_580073064_psk31Mn3nb9mDv0fZyyLjfCNAujeB9ni.jpg);
+    background-size: cover;
 }
 
 /* seção 4 */
 
 .section4 {
     background-color: #100622ed;
+    background-image: url(https://img1.wsimg.com/isteam/stock/1041/:/rs=w:1280);
+    background-size: cover;
 }
 
-.section--fundo {
-    background-image: url(https://img.freepik.com/free-photo/volumetric-musical-background-with-treble-clef-notes-generative-ai_169016-29576.jpg);
-    background-position: 50%;
-    background-size: cover;
-    opacity: 100%;
+.texto {
+    font-size: 25px
 }
 
 .container--contato {
@@ -262,10 +271,11 @@ input {
     gap: 10px;
     background-color: #1e1e1e;
     padding: 30px;
-    border-radius: 16px;
+    border-radius: 23px;
+    border: solid 2px white;
 }
 
-.popup-aberto .popup {
+.popup--aberto .popup {
     display: flex;
 }
 
@@ -279,6 +289,19 @@ input {
     height: 45px;
 }
 
+/* Ícone */
+
+.icone {
+    color: white;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    margin-bottom: 0;
+    margin-top: 545px;
+    margin-left: auto;
+    border: solid black;
+    border-radius: 7px;
+}
 
 /* Media Queries */
 
