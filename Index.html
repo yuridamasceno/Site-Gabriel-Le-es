@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Imperial+Script&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <!-- fonte -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+        </style>
+   
     <!-- CSS -->
     <link rel="stylesheet" href="Style.css">
+
     <title>Gabriel Leões Oficial</title>
 </head>
-<body class="">
+<body>
     <header>
         <p class="nome--gabriel">Gabriel Leões Oficial</p>
             <nav class="menu">
                 <ul>
-                    <li><button id="sobre" class="botao"> Sobre mim</button></li>
-                    <li><button id="contact" class="botao"> Contato</button></li>
+                    <a href="#" id="sobre" class="botao"> Sobre mim</a>
+                    <a href="#" id="contact" class="botao"> Contato</a>
                 </ul>
             </nav>
     </header>
@@ -47,9 +50,9 @@
         </div>
 
         <div class="section3">
-            <div class="container container--dois">
+            <div id="sobremim" class="container container--dois">
                 <div class="card2">
-                    <h1 class="nome"> Sobre mim.</h1>
+                    <h1  class="nome"> Sobre mim.</h1>
                     <ul>
                         <p>Gabriel Leões não é apenas cantor de uma renomada voz de respeito, ele também é um grande ator.</p>
                         <p>Seu mais recente trabalho foi na escola <span class="lemes">Lemes Artes Música, Teatro e Produção</span>, seu mais grande sucesso recente com o musical chamado <span class="lemes">A Era do Amor</span>, estrelando Gabriel como um dos atores mais bem reconhecidos de José Bonifácio.</p>
@@ -62,7 +65,7 @@
                     <h1 class="nome"> Carreira.</h1>
                     <ul>
                         <p>Além de ser cantor e ator, Gabriel Leões é também um grande <span class="lemes">Pianista</span>.</p>
-                        <p>Se consagrando no seu piano, Gabriel é considerado por muitos um dos melhores pianistas do seu tempo, possuindo muito repertório sobre várias músicas, não só como músicas clássicas mas também o <span class="lemes">Pop</span>, a famosa cantora de proporção mundial Lady Gaga é uma de suas inspirações, onde a própria Lady Gaga reconheceu as habilidades de Gabriel Leôes como um prodígio, digno de seu nome!.</p>
+                        <p>Se consagrando no seu piano, Gabriel é considerado por muitos um dos melhores pianistas do seu tempo, possuindo um vasto repertório de músicas, não só como músicas clássicas mas também o <span class="lemes">Pop</span>, a famosa cantora de proporção mundial Lady Gaga é uma de suas inspirações, onde a própria Lady Gaga reconheceu as habilidades de Gabriel Leôes como um prodígio, digno de seu nome!.</p>
                         <p>Construindo suas próprias partituras do zero, Binho Lemes o proprietário da Escola Lemes Artes, disse que reconhece Gabriel como um dos melhores pianistas que a sua escola já encontrou, "Gabriel precisava de alguém para dar um impulso em sua carreira, foi ai que eu o conheci, vi que o brilho que ele possui poucas pessoas tem, então aproveitei e o chamei para a minha equipe.".</p>
                         <p>Fazendo shows não apenas na cidade de José Bonifácio, mas também na região e também em outros estados como Minas Gerais, lugar onde Gabriel disse que se sentiu super bem no estado mineiro.</p>
                         
@@ -74,16 +77,21 @@
         <div class="section2">
         </div>
 
-        <div class="section4 section--fundo">
+        <div  class="section4 section--fundo">
             <div class="container container--contato">
                 <div class="card3">
-                    <h1 class="nome"> Contato</h1>
-                    <p>Entre em contato agora conos e agende o melhor show que você terá na sua vida!</p>
+                    <h1 id="contato" class="nome"> Contato</h1>
+                    <p class="texto">Entre em contato agora conosco e agende o melhor show que você terá na sua vida!</p>
                     <button type="submit" class="botaocontato">Contato</button>
                 </div>
                 <div class="fotocontato">
                     <img src="Fotos/fotodecontato.png" width="651px" height="600px" alt="Gabriel Leões">
                 </div>
+                <a href="#" id="up" class="icone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+                      </svg>
+                </a>
             </div>
         </div>
     </main>
@@ -96,7 +104,7 @@
         <form class="popup__container">
             <button type="button" class="botao popup__botao popup__botao--fechar">x</button>
 
-            <input type="text" placeholder="*Seu Primeiro Nome">
+            <input type="text" placeholder="*Seu Nome Completo">
             <input type="email" placeholder="*Seu E-mail">
             <input type="text" placeholder="*Seu WhatsApp com DDD">
 
